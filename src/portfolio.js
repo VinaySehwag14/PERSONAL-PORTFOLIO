@@ -54,12 +54,12 @@ const projects = [
     livePreview: 'https://nextjs-blog-app-eight-lyart.vercel.app/',
   },
   {
-    name: 'Smart Home Mobile App',
+    name: 'Pizza-Corner',
     description:
-      'A Smart Home app that controls you home electronic devices through nodemcu',
-    stack: ['Flutter', 'C++', 'Node.js'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A NextJs app , personal pizza delivery app with beautiful modified images and UI and used cloudfare for image storage.',
+    stack: ['Next Js', 'Javascript', 'Cloudfare', 'MongoDB', 'Node.js'],
+    sourceCode: 'https://github.com/VinaySehwag14/Pizza_Corner/tree/master',
+    livePreview: 'https://pizza-corner.vercel.app/',
   },
   {
     name: 'Smart Home Mobile App',
