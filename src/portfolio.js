@@ -35,7 +35,7 @@ const projects = [
     description: 'A netflix clone web app made by using react and firebase',
     stack: ['CSS', 'Firebase', 'React'],
     sourceCode: 'https://github.com/VinaySehwag14/NetflixClone-React',
-    livePreview: 'https://netflix-clone-668b8.web.app/',
+    livePreview: 'https://62d29ec47de22d75e884d618--ornate-cobbler-fa7233.netlify.app/',
   },
   {
     name: 'IBlog',
