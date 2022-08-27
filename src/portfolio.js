@@ -43,7 +43,7 @@ const projects = [
       'A blogging web application made by using React , nodejs , mongodb and express',
     stack: ['MongoDB', 'React', 'Node.js', 'Express'],
     sourceCode: 'https://github.com/VinaySehwag14/iBlog-frontend',
-    livePreview: 'https://ibloog-frontend.herokuapp.com/',
+    livePreview: 'https://i-blog-frontend.vercel.app/',
   },
   {
     name: 'Nextjs blog with MARKDOWN',
