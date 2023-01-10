@@ -61,14 +61,6 @@ const projects = [
     sourceCode: 'https://github.com/VinaySehwag14/Pizza_Corner/tree/master',
     livePreview: 'https://pizza-corner.vercel.app/',
   },
-  {
-    name: 'Smart Home Mobile App',
-    description:
-      'A Smart Home app that controls you home electronic devices through nodemcu',
-    stack: ['Flutter', 'C++', 'Node.js'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
 ]
 
 const skills = [
