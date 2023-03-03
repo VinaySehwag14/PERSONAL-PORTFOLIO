@@ -9,7 +9,7 @@ const about = {
   name: 'Vinay Sehwag',
   role: 'FullStack Developer',
   description:
-    'Hi there, A little about myself i am currently doing my bacherlors in computer science and have worked as a freelancer.',
+    'Hi there, A little about myself i am currently doing my bacherlors in computer science and have worked as a frontend developer in HRGP.',
   resume:
     'https://drive.google.com/drive/folders/1-3RKK2OLHwjzHid-Nd_XYeLyyksn7_kr?usp=sharing',
   social: {
@@ -23,20 +23,14 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Kisaan Ki dukaan ',
-    description: 'An E-commerce platform for farmers using MERN stack',
-    stack: ['MONGODB', 'Express', 'React', 'Node.js'],
-    sourceCode: 'https://github.com/VinaySehwag14/E-comm-Frontend',
-
-    livePreview: 'https://kisaan-mern.herokuapp.com/',
+    name: 'Pizza-Corner',
+    description:
+      'A NextJs app , personal pizza delivery app with beautiful modified images and UI and used cloudfare for image storage.',
+    stack: ['Next Js', 'Javascript', 'Cloudfare', 'MongoDB', 'Node.js'],
+    sourceCode: 'https://github.com/VinaySehwag14/Pizza_Corner/tree/master',
+    livePreview: 'https://pizza-corner.vercel.app/',
   },
-  {
-    name: 'Netflix Clone',
-    description: 'A netflix clone web app made by using react and firebase',
-    stack: ['CSS', 'Firebase', 'React'],
-    sourceCode: 'https://github.com/VinaySehwag14/NetflixClone-React',
-    livePreview: 'https://62d29ec47de22d75e884d618--ornate-cobbler-fa7233.netlify.app/',
-  },
+  
   {
     name: 'IBlog',
     description:
@@ -53,14 +47,39 @@ const projects = [
     sourceCode: 'https://github.com/VinaySehwag14/Nextjs-Blog-App',
     livePreview: 'https://nextjs-blog-app-eight-lyart.vercel.app/',
   },
-  {
-    name: 'Pizza-Corner',
+   {
+    name: 'Booking.com Clone',
     description:
-      'A NextJs app , personal pizza delivery app with beautiful modified images and UI and used cloudfare for image storage.',
-    stack: ['Next Js', 'Javascript', 'Cloudfare', 'MongoDB', 'Node.js'],
-    sourceCode: 'https://github.com/VinaySehwag14/Pizza_Corner/tree/master',
-    livePreview: 'https://pizza-corner.vercel.app/',
+      'A Booking.com clone for booking hotel and rooms ',
+    stack: ['Reactjs', 'Cloudinary', 'Tailwind', 'REST Api'],
+    sourceCode: 'https://github.com/VinaySehwag14/Hotel-Booking-frontendt ',
+    livePreview: 'https://hotel-booking-frontend-335cejzxb-vinaysehwag14.vercel.app/'
+     ,
   },
+   {
+    name: 'Booking.com Clone admin Panel',
+    description:
+      'A Booking.com clone for creating Users, hotel and rooms ',
+    stack: ['Reactjs', 'Cloudinary', 'Tailwind', 'REST Api',"CRUD operations"],
+    sourceCode: 'https://github.com/VinaySehwag14/Hotel_admin ',
+    livePreview: 'https://hotel-admin-ashen.vercel.app/',
+  },
+   {
+    name: 'Kisaan Ki dukaan ',
+    description: 'An E-commerce platform for farmers using MERN stack',
+    stack: ['MONGODB', 'Express', 'React', 'Node.js'],
+    sourceCode: 'https://github.com/VinaySehwag14/E-comm-Frontend',
+
+    livePreview: 'https://kisaan-mern.herokuapp.com/',
+  },
+  {
+    name: 'Netflix Clone',
+    description: 'A netflix clone web app made by using react and firebase',
+    stack: ['CSS', 'Firebase', 'React'],
+    sourceCode: 'https://github.com/VinaySehwag14/NetflixClone-React',
+    livePreview: 'https://62d29ec47de22d75e884d618--ornate-cobbler-fa7233.netlify.app/',
+  },
+ 
 ]
 
 const skills = [
