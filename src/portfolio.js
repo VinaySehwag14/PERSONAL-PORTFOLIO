@@ -79,6 +79,13 @@ const projects = [
     sourceCode: 'https://github.com/VinaySehwag14/NetflixClone-React',
     livePreview: 'https://62d29ec47de22d75e884d618--ornate-cobbler-fa7233.netlify.app/',
   },
+{
+    name: 'MAYA shop Admin',
+    description: 'A shop admin for handling products only.',
+    stack: ['CSS', 'Firebase', 'React','rechart','rest api'],
+    sourceCode: 'https://github.com/VinaySehwag14/MAYA-Shop-admin-',
+    livePreview: 'https://maya-shop-admin-o8rp.vercel.app/',
+  },
  
 ]
 
