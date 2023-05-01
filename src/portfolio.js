@@ -86,6 +86,13 @@ const projects = [
     sourceCode: 'https://github.com/VinaySehwag14/MAYA-Shop-admin-',
     livePreview: 'https://maya-shop-admin-o8rp.vercel.app/',
   },
+{
+    name: 'Youtube2.0',
+    description: 'youtube clone with MUI 5 and Rapid API for youtube with responsive design ',
+    stack: ['RAPID API', 'React','MUI'],
+    sourceCode: 'https://github.com/VinaySehwag14/Youtube2.0',
+    livePreview: 'https://youtube2-0-3yb33tn13-vinaysehwag14.vercel.app/',
+  },
  
 ]
 
@@ -95,7 +102,6 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
   'NextJs',
   'Node.js',
@@ -107,7 +113,10 @@ const skills = [
   'Git',
   'Figma',
   'Adobe xd',
-  'UI/Ux',
+  'UI/UX',
+  'React Native',
+  'BootStrap',
+  'MUI'
 ]
 
 const contact = {
