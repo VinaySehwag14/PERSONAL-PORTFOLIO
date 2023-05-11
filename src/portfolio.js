@@ -87,6 +87,13 @@ const projects = [
     livePreview: 'https://maya-shop-admin-o8rp.vercel.app/',
   },
 {
+    name: 'MAYA shop ',
+    description: 'An e-commerce app for selling clothes.',
+    stack: ['Tailwind CSS', 'Responsive design', 'React','rest api'],
+    sourceCode: 'https://github.com/VinaySehwag14/E-commerce_modern',
+    livePreview: 'http://maya-shop-frontend.vercel.app/',
+  },
+{
     name: 'Youtube2.0',
     description: 'youtube clone with MUI 5 and Rapid API for youtube with responsive design ',
     stack: ['RAPID API', 'React','MUI'],
