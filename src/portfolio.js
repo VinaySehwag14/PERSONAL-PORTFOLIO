@@ -111,6 +111,7 @@ const skills = [
   'JavaScript',
   'React',
   'NextJs',
+  'Redux',
   'Node.js',
   'MongoDB',
   'Firebase',
