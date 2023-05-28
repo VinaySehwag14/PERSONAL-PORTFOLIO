@@ -23,6 +23,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'MAYA shop ',
+    description: 'An e-commerce app for selling clothes.',
+    stack: ['Tailwind CSS', 'Responsive design', 'React','rest api'],
+    sourceCode: 'https://github.com/VinaySehwag14/E-commerce_modern',
+    livePreview: 'http://maya-shop-frontend.vercel.app/',
+  },
+  {
+    name: 'MAYA shop Admin',
+    description: 'A shop admin for handling products only.',
+    stack: ['CSS', 'Firebase', 'React','rechart','rest api'],
+    sourceCode: 'https://github.com/VinaySehwag14/MAYA-Shop-admin-',
+    livePreview: 'https://maya-shop-admin-o8rp.vercel.app/',
+  },
+  {
     name: 'Pizza-Corner',
     description:
       'A NextJs app , personal pizza delivery app with beautiful modified images and UI and used cloudfare for image storage.',
@@ -38,6 +52,13 @@ const projects = [
     stack: ['MongoDB', 'React', 'Node.js', 'Express'],
     sourceCode: 'https://github.com/VinaySehwag14/iBlog-frontend',
     livePreview: 'https://i-blog-frontend.vercel.app/',
+  },
+  {
+    name: 'Moviestaan',
+    description: 'An online movie and show watching app with AI',
+    stack: ['MUI',,'Redux Toolkit', 'Responsive design', 'React','TMBD'],
+    sourceCode: 'https://github.com/VinaySehwag14/E-commerce_modern',
+    livePreview: 'http://maya-shop-frontend.vercel.app/',
   },
   {
     name: 'Nextjs blog with MARKDOWN',
@@ -79,20 +100,8 @@ const projects = [
     sourceCode: 'https://github.com/VinaySehwag14/NetflixClone-React',
     livePreview: 'https://62d29ec47de22d75e884d618--ornate-cobbler-fa7233.netlify.app/',
   },
-{
-    name: 'MAYA shop Admin',
-    description: 'A shop admin for handling products only.',
-    stack: ['CSS', 'Firebase', 'React','rechart','rest api'],
-    sourceCode: 'https://github.com/VinaySehwag14/MAYA-Shop-admin-',
-    livePreview: 'https://maya-shop-admin-o8rp.vercel.app/',
-  },
-{
-    name: 'MAYA shop ',
-    description: 'An e-commerce app for selling clothes.',
-    stack: ['Tailwind CSS', 'Responsive design', 'React','rest api'],
-    sourceCode: 'https://github.com/VinaySehwag14/E-commerce_modern',
-    livePreview: 'http://maya-shop-frontend.vercel.app/',
-  },
+
+
 {
     name: 'Youtube2.0',
     description: 'youtube clone with MUI 5 and Rapid API for youtube with responsive design ',
