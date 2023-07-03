@@ -109,6 +109,13 @@ const projects = [
     sourceCode: 'https://github.com/VinaySehwag14/Youtube2.0',
     livePreview: 'https://youtube2-0-3yb33tn13-vinaysehwag14.vercel.app/',
   },
+  {
+    name: 'UBER2.0',
+    description: 'UBER clone using google api  ',
+    stack: ['Tailwind', 'React Native','React Navigation'],
+    sourceCode: 'https://github.com/VinaySehwag14/uber2.0',
+    livePreview: '',
+  }
  
 ]
 
