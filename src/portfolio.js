@@ -1,15 +1,13 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: '/',
   title: 'Vinay',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Vinay Sehwag',
   role: 'FullStack Developer',
   description:
-    'Hi there, A little about myself i am currently doing my bacherlors in computer science and have worked as a frontend developer in HRGP.',
+    "Hello, I'm a passionate computer science graduate with a knack for crafting immersive digital experiences. With a solid foundation in engineering, I've honed my skills as a React JS and React Native developer at Kwint IT. In my current role, I've led the development of four dynamic applications, showcasing my expertise in both React and React Native. From optimizing performance to managing a team of React Native developers, I thrive in delivering high-quality solutions that exceed expectations. Let's connect and explore how my experience and dedication can add value to your team.",
   resume:
     'https://drive.google.com/drive/folders/1-3RKK2OLHwjzHid-Nd_XYeLyyksn7_kr?usp=sharing',
   social: {
@@ -20,8 +18,7 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+
   {
     name: 'MAYA shop ',
     description: 'An e-commerce app for selling clothes.',
