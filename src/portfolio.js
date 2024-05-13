@@ -115,6 +115,13 @@ const projects = [
     stack: ['Tailwind', 'React Native','React Navigation'],
     sourceCode: 'https://github.com/VinaySehwag14/uber2.0',
     livePreview: '',
+  },
+  {
+    name: 'Vlomo',
+    description: 'A vlog sharing app with appwrite',
+    stack: ['Tailwind', 'React Native','Expo',"appwrite"],
+    sourceCode: 'https://github.com/VinaySehwag14/Vlomo',
+    livePreview: '',
   }
  
 ]
@@ -125,12 +132,17 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
+  'Typescript',
   'React',
+  'React Native',
   'NextJs',
   'Redux',
+  'Redux Toolkit',
   'Node.js',
   'MongoDB',
   'Firebase',
+  'appwrite',
+  'Expo',
   'Python',
   'SASS',
   'Tailwind',
@@ -138,7 +150,6 @@ const skills = [
   'Figma',
   'Adobe xd',
   'UI/UX',
-  'React Native',
   'BootStrap',
   'MUI'
 ]
