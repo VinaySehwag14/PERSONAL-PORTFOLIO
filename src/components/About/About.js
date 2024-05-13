@@ -1,27 +1,27 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import TwitterIcon from '@material-ui/icons/Twitter'
-import { about } from '../../portfolio'
-import './About.css'
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import { about } from "../../portfolio";
+import "./About.css";
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, resume, social } = about;
 
   return (
-    <div className='about center'>
+    <div className="about center">
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Hi, I am <span className="about__name">{name}.</span>
         </h1>
       )}
 
-      {role && <h2 className='about__role'>A {role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      {role && <h2 className="about__role">A {role}.</h2>}
+      <p className="about__desc">{description && description}</p>
 
-      <div className='about__contact center'>
+      <div className="about__contact center">
         {resume && (
           <a target="_blank" rel="noopener noreferrer" href={resume}>
-            <span type='button' className='btn btn--outline'>
+            <span type="button" className="btn btn--outline">
               Resume
             </span>
           </a>
@@ -32,9 +32,10 @@ const About = () => {
             {social.github && (
               <a
                 href={social.github}
-                target="_blank" rel="noopener noreferrer"
-                aria-label='github'
-                className='link link--icon'
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="github"
+                className="link link--icon"
               >
                 <GitHubIcon />
               </a>
@@ -43,19 +44,21 @@ const About = () => {
             {social.linkedin && (
               <a
                 href={social.linkedin}
-                target="_blank" rel="noopener noreferrer"
-                aria-label='linkedin'
-                className='link link--icon'
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="linkedin"
+                className="link link--icon"
               >
                 <LinkedInIcon />
               </a>
             )}
-             {social.twitter && (
+            {social.twitter && (
               <a
                 href={social.twitter}
-                target="_blank" rel="noopener noreferrer"
-                aria-label='twitter'
-                className='link link--icon'
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="twitter"
+                className="link link--icon"
               >
                 <TwitterIcon />
               </a>
@@ -64,7 +67,7 @@ const About = () => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;
