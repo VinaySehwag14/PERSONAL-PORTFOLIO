@@ -18,7 +18,18 @@ const about = {
 }
 
 const projects = [
-
+   {
+    name: 'Coffee shop ',
+    description: 'An React Native app for a coffee shop.',
+    stack: ['Typescript', 'Linear Gradient', 'React Native Cli', 'JSON data'],
+    sourceCode: 'https://github.com/VinaySehwag14/Coffee_Shop_App',
+  },
+  {
+    name: 'Vlomo',
+    description: 'A vlog sharing app with appwrite',
+    stack: ['Tailwind', 'React Native', 'Expo',"app write"],
+    sourceCode: 'https://github.com/VinaySehwag14/Vlomo',
+  },
   {
     name: 'MAYA shop ',
     description: 'An e-commerce app for selling clothes.',
@@ -113,13 +124,7 @@ const projects = [
     sourceCode: 'https://github.com/VinaySehwag14/uber2.0',
     livePreview: '',
   },
-  {
-    name: 'Vlomo',
-    description: 'A vlog sharing app with appwrite',
-    stack: ['Tailwind', 'React Native','Expo',"appwrite"],
-    sourceCode: 'https://github.com/VinaySehwag14/Vlomo',
-    livePreview: '',
-  }
+  
  
 ]
 
