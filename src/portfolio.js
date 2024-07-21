@@ -19,6 +19,13 @@ const about = {
 
 const projects = [
    {
+    name: 'Snoopy',
+    description: 'An React social media app for sharing memories .',
+    stack: ['Typescript', 'Tanstack Query', 'ShadCN','tailwing CSS', 'appwrite'],
+    sourceCode: 'https://github.com/VinaySehwag14/Snoopy',
+    livePreview: 'https://snoopy-tan.vercel.app/',
+  },
+   {
     name: 'Coffee shop ',
     description: 'An React Native app for a coffee shop.',
     stack: ['Typescript', 'Linear Gradient', 'React Native Cli', 'JSON data'],
